@@ -10,4 +10,6 @@ Backend:
 
 - Add XML comments on the controllers, services, models & interfaces to describe the functionality so it is easier understood by other developers.
 - Make the natural user language input a lot more flexible and include the ability to comprehend more measurements and possibly utilize somthing like NLQ/NLP instead of regex.
-- 
+- Improve error handling
+- I did not have time to complete the parallelogram shape.
+- Use a region to seperate the helper methods
