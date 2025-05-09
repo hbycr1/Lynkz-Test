@@ -1,0 +1,13 @@
+Things I would have liked to do:
+
+
+Frontend:
+
+- Add list of supported shapes to front end UI.
+
+
+Backend:
+
+- Add XML comments on the controllers, services, models & interfaces to describe the functionality so it is easier understood by other developers.
+- Make the natural user language input a lot more flexible and include the ability to comprehend more measurements and possibly utilize somthing like NLQ/NLP instead of regex.
+- 

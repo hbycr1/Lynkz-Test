@@ -36,7 +36,7 @@ h1 {
 }
 
 p {
-  margin: 0 0 1rem;
+  margin: 1rem 0;
   color: var(--gray-700);
 }
 
@@ -61,4 +61,15 @@ main {
   height: 1px;
   background: var(--red-to-pink-to-purple-horizontal-gradient);
   margin: 3rem 0;
+}
+
+ul {
+  text-align: left;
+  max-width: 150px;
+  margin: 0 auto;
+  display: block;
+
+  li {
+    color: var(--gray-700);
+  }
 }
