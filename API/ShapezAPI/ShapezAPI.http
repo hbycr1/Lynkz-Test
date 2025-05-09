@@ -1,0 +1,6 @@
+@ShapezAPI_HostAddress = http://localhost:5159
+
+GET {{ShapezAPI_HostAddress}}/shapez/
+Accept: application/json
+
+###

@@ -1,0 +1,14 @@
+<app-shape-canvas *ngIf="shapeData" [shapeData]="shapeData"></app-shape-canvas>
+
+<form [formGroup]="shapeForm" (ngSubmit)="createShape()">
+  <input
+    id="name"
+    type="text"
+    formControlName="shapeDescription"
+    placeholder="Enter your shape details..."
+  />
+  <p class="error-text" *ngIf="errorText.length">
+    {{ errorText }}
+  </p>
+  <button type="submit" [disabled]="submitting">Create my shape!</button>
+</form>
